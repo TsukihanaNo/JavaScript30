@@ -1,0 +1,48 @@
+html {
+    background-image: url(background.jpg);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.key {
+    display: flex;
+    color: white;
+    background-color: rgba(0,0,0,0.40);
+    flex: 1;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5px 10px;
+    border: solid 2px black;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in;
+}
+
+.key:hover{
+    transform: scale(1.1);
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: orange; 
+}
+
+kbd {
+    font-size: 16px;
+}
+
+p {
+    font-size: 18px;
+    margin: 10px auto;
+    color: orange;
+}
